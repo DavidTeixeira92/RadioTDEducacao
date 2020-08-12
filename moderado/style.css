@@ -5,7 +5,10 @@
 body {
     height: 100vh;
      /* background-color: #efefef; */
-    background-image: url('https://media-manager.noticiasaominuto.com.br/1280/naom_59ba87353124d.jpg') ;
+    /* background-image: url('https://media-manager.noticiasaominuto.com.br/1280/naom_59ba87353124d.jpg') ; */
+    /* background-image: url('https://s2.best-wallpaper.net/wallpaper/1920x1200/1107/Sunrise-Earth-in-space_1920x1200.jpg'); */
+    /* background-image: url('https://img.cancaonova.com/cnimages/canais/uploads/sites/6/2010/09/formacao_1600x1200-o-universo-pode-ter-sido-criado-sem-deus.jpg'); */
+    background-image: url('https://mobimg.b-cdn.net/pic/v2/gallery/preview/fentezi-kosmos-pejzazh-planety-25719.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -49,4 +52,16 @@ h4{
 audio{
     width: 100%;
     margin-top: 30px;
+}
+
+p.footer{
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    /* Aqui mexe no eixo Y */
+    align-items: center; 
+    /* Aqui mexe no eixo X */
+    justify-content: center;
+    padding: 12px;
 }
