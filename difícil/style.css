@@ -1,10 +1,22 @@
 @import "https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css";
 @import "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css";
 
+:root{
+
+     --primary: #00BFFF;
+    
+}
 
 body {
     height: 100vh;
-    background-color: #efefef;
+     /* background-color: #efefef; */
+     background-image: url('https://media-manager.noticiasaominuto.com.br/1280/naom_59ba87353124d.jpg') ;
+    /* background-image: url('https://s2.best-wallpaper.net/wallpaper/1920x1200/1107/Sunrise-Earth-in-space_1920x1200.jpg'); */
+    /* background-image: url('https://img.cancaonova.com/cnimages/canais/uploads/sites/6/2010/09/formacao_1600x1200-o-universo-pode-ter-sido-criado-sem-deus.jpg'); */
+    /* background-image: url('https://mobimg.b-cdn.net/pic/v2/gallery/preview/fentezi-kosmos-pejzazh-planety-25719.jpg'); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,7 +36,7 @@ body {
 }
 
 h4{
-    color: #00BFFF;
+    color: var(--primary);
     font-size: 20px;
     font-weight: bold;
     margin: 0;
@@ -42,7 +54,57 @@ h4{
     height: 200px;
 }
 
+.card-content{
+
+    height: 190px;
+
+}
+
 audio{
     width: 100%;
     margin-top: 30px;
+}
+
+.row{
+
+   
+    border-radius: 20px;
+    border: 1px solid;
+}
+
+
+
+p.footer{
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    /* Aqui mexe no eixo Y */
+    align-items: center; 
+    /* Aqui mexe no eixo X */
+    justify-content: center;
+    padding: 5px;
+    
+   
+}
+
+#play-pause{
+    background-color: var(--primary);
+}
+
+#mute{
+    color: var(--primary);
+    transform: translateY(2px);
+}
+/* Aplica a cor nos ranges, apenas no Chrome */
+input[type="range"]::-webkit-slider-thumb{
+    background-color: var(--primary);
+}
+/* Aplica a cor nos ranges, apenas no Firefox */
+input[type="range"]::-moz-range-thumb{
+    background-color: var(--primary);
+}
+/* Aplica a cor nos ranges, apenas no IE */
+input[type="range"]::-ms-thumb{
+    background-color: var(--primary);
 }

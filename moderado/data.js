@@ -3,7 +3,7 @@ window.audios = [
         title: "While Your Lips Are Still Red",
         artist: "Nigtwish",
         cover: "While-your-lips-are-still-red.gif",
-        file: "while-your-lips-are-still-red.mp3"
+        file: "While-your-lips-are-still-red-oficial-video.mp3"
 
     },
     {
@@ -49,9 +49,9 @@ window.audios = [
         
     },
     {
-        title: "eternity",
-        artist: "Desconhecido",
-        cover: "",
+        title: "Eternity",
+        artist: "Vintage Culture, Jetlag",
+        cover: "eternity.jpg",
         file: "eternity.mp3"
         
     },
@@ -59,14 +59,14 @@ window.audios = [
     {
         title: "high-original-video",
         artist: "James Blunt",
-        cover: "",
+        cover: "high-original-video.jpg",
         file: "high-original-video.mp3"
         
     },
     {
-        title: "la-notte-official-video",
+        title: "La Notte",
         artist: "Arisa",
-        cover: "",
+        cover: "la-notte-official-video.jpg",
         file: "la-notte-official-video.mp3"
         
     },
