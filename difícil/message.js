@@ -1,0 +1,1 @@
+alert("Tenha uma excelente vibe!");
